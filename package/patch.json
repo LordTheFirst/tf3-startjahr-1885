@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "archive_size": 588397012,
+  "manifest_sha256": "e34c90f78c2021a219de14cd4059a0c38385e7c4dba5d364973f63094d9322f3",
+  "original_sha256": "7e37e0bbe61fb8f103ab849443563087474c4de893125e488531cadb76e395a8",
+  "patched_sha256": "e0c44e2cc39b1be069ecc0915bd152372f0264aea6c1ff30ba551363061c4e86",
+  "edits": [
+    {
+      "offset": 580211055,
+      "before": "6c6f63616c2059656172506172616d73203d207b313930302c20323032302c2031307d",
+      "after": "6c6f63616c2059656172506172616d73203d207b313838352c20323032302c2035207d"
+    },
+    {
+      "offset": 580198050,
+      "before": "4e7b8679",
+      "after": "c4cc3531"
+    },
+    {
+      "offset": 588382941,
+      "before": "4e7b8679",
+      "after": "c4cc3531"
+    }
+  ],
+  "start_year": 1885,
+  "year_step": 5,
+  "checked_windows_build": 40423
+}

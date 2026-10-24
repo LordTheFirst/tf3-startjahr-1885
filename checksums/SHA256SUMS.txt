@@ -1,0 +1,2 @@
+d6b343d4aa33ac2ff41a11f70504b8d5da904cce7c7ff376a057552bc826d32c  TF3_1885_Start_Windows_Komplett_1.0.0-alpha.zip
+94c0901aebab66ee112c050482db7bb2fee91e98052d5ba28e7addca53a0394a  TF3_1885_Anleitung_DE.pdf

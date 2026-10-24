@@ -1,0 +1,42 @@
+name: Check package and complete alpha release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'package/**'
+      - 'tools/build_package.py'
+      - 'tools/publish_release.py'
+      - 'release.json'
+      - 'release-notes.md'
+      - 'checksums/**'
+      - 'docs/TF3_1885_Anleitung_DE.pdf'
+      - '.github/workflows/release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: alpha-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Rebuild and verify exact alpha payload
+        run: |
+          python3 tools/build_package.py
+          python3 tools/build_package.py --check
+      - name: Complete the existing alpha release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: python3 tools/publish_release.py

@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0-alpha",
+  "tag": "v1.0.0-alpha",
+  "asset": "TF3_1885_Start_Windows_Komplett_1.0.0-alpha.zip",
+  "checked_windows_build": 40423,
+  "mod_revision": 5,
+  "archive_sha256": "d6b343d4aa33ac2ff41a11f70504b8d5da904cce7c7ff376a057552bc826d32c",
+  "layout": [
+    {
+      "name": "start_year_1885/_metadata/modinfo.json",
+      "date_time": [
+        2026,
+        10,
+        23,
+        22,
+        33,
+        26
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "fbe226eddd6b294a3d12f0dc8578fe171b0baa344d26beb443b1fc14a04f6fd2"
+    },
+    {
+      "name": "start_year_1885/content/mod.script.lua",
+      "date_time": [
+        2026,
+        10,
+        23,
+        21,
+        52,
+        34
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "7abc6a8f16439b3c476f5be689c5989fd0b628ca9006fe8eef88ca010f4893f5"
+    },
+    {
+      "name": "start_year_1885/content/traffic_support/availability.lua",
+      "date_time": [
+        2026,
+        10,
+        23,
+        21,
+        52,
+        34
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "eda7fe844cc51078ced06310079a5eea9477a41ea65a5c353d1391f31c81e679"
+    },
+    {
+      "name": "start_year_1885/content/traffic_support/buildings.lua",
+      "date_time": [
+        2026,
+        10,
+        23,
+        21,
+        52,
+        34
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "85eadb08ca39cee16d79d20f8830b03cc02e86fee3d0bcd7d826cda9edba6332"
+    },
+    {
+      "name": "start_year_1885/mod.json",
+      "date_time": [
+        2026,
+        10,
+        23,
+        21,
+        52,
+        34
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "5b0f1508cbc200461c760e0c5dc31dd539815ee2a89691b8abc1089bd2ff45a2"
+    },
+    {
+      "name": "menu_patch.ps1",
+      "date_time": [
+        2026,
+        10,
+        23,
+        21,
+        6,
+        48
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "0b46714d6105847caf42b75c102058b2f7603ecebc52ef6f323e943fc38186fc"
+    },
+    {
+      "name": "patch.json",
+      "date_time": [
+        2026,
+        10,
+        23,
+        21,
+        7,
+        14
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "b30502783b652b4af1f668353eafd8639c74cde3d3b30ca880bca7dc833c756f"
+    },
+    {
+      "name": "readme_de.md",
+      "date_time": [
+        2026,
+        10,
+        23,
+        22,
+        33,
+        26
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "a18d55a53564b5e8bc13ed6b3d017b9e810e5921eaa1029eec351d5689ea630b"
+    },
+    {
+      "name": "readme_en.md",
+      "date_time": [
+        2026,
+        10,
+        23,
+        22,
+        33,
+        26
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "5a9a814592678d4e33fdc6ab9a552d2029d329dea508fbcf3ebad886bcf64c54"
+    },
+    {
+      "name": "anleitung_de.pdf",
+      "date_time": [
+        2026,
+        10,
+        23,
+        22,
+        33,
+        36
+      ],
+      "compress_type": 8,
+      "create_system": 0,
+      "external_attr": 2176188416,
+      "sha256": "94c0901aebab66ee112c050482db7bb2fee91e98052d5ba28e7addca53a0394a"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "modId": "start_year_1885",
+  "revision": 5,
+  "severityAdd": "Warning",
+  "severityRemove": "Warning",
+  "visible": true,
+  "cosmetic": false,
+  "params": [],
+  "runScript": {
+    "fileName": "start_year_1885::/mod.script@runFn"
+  }
+}

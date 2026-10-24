@@ -1,0 +1,43 @@
+name: Fehler melden / Report a bug
+description: Installationsproblem, Absturz oder Fehler im 1885-Spielstart melden.
+title: "[Fehler] "
+body:
+  - type: markdown
+    attributes:
+      value: "Bitte keine vollständigen Spieldateien hochladen. Persönliche Angaben aus Logs entfernen. / Do not upload base-game files; review logs for personal information."
+  - type: input
+    id: version
+    attributes:
+      label: Spielbuild / Game build
+      placeholder: "z. B. Windows, Build 40423"
+    validations:
+      required: true
+  - type: input
+    id: mod
+    attributes:
+      label: Paketversion und Modrevision / Package and mod revision
+      placeholder: "v1.0.0-alpha, Revision 5"
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Startjahr und neues/bestehendes Spiel / Start year and new/existing save
+      placeholder: "1885, neues freies Spiel"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte, Erwartung und tatsächliches Verhalten / Steps, expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: othermods
+    attributes:
+      label: Weitere aktive Mods / Other active mods
+  - type: textarea
+    id: log
+    attributes:
+      label: Fehlermeldung oder relevanter stdout.txt-Auszug / Error or relevant log excerpt
+      description: "Text einfügen oder bereinigte Logdatei anhängen. / Paste text or attach a reviewed log."
